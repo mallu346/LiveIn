@@ -1,0 +1,83 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('images/resort1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: rgba(237, 191, 191, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #af9494;
+    border-radius: 5px;
+}
+
+.submit-box {
+    margin-top: 20px;
+}
+
+.submit-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgba(186, 5, 5, 0.715);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-box button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
